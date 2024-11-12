@@ -1,0 +1,17 @@
+
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family:sens-serif;
+.title{
+    text-transform: uppercase;
+    margin-bottom: 10%;
+
+}
+.container{
+    color: grey;
+    margin: 0 auto;
+    text-align: center;
+}

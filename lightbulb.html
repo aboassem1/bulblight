@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>bulb on and off</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+      <h1 class="title"> click the bulb to turn it on and off </h1>
+       <img src="lightoff.jpg" alt="" id="lightbulb" onclick="press()" />
+
+  </div>
+  <script>
+   function press(){
+       let bulb=document.getElementById('lightbulb');
+       if(bulb.src.match('lightoff')){
+           bulb.src='lighton.jpg';
+       }
+       else{
+           bulb.src='lightoff.jpg';
+       }
+   }
+  </script>
+</body>
+
+</html>
